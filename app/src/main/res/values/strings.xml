@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GoogleMaps</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="MAPLOGGING">MAPLOGGING</string>
+    <string name="MAKERCLICKED">Marker is clicked</string>
+    <string name="google_maps_key">AIzaSyDhJYGC6fveSrxRpazmSq4WoH1S3Tu89bE</string>
+    <string name="bruno_mendanha_all_rights_reserved">Bruno Mendanha - All rights reserved</string>
+
+</resources>
