@@ -158,7 +158,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
     fun addMarkers() {
         val Christchurch = LatLng(53.343368, -6.27012)
-        var marker1 = mMap.addMarker(MarkerOptions().position(Christchurch).title("Marker in Clonmel"))
+        var marker1 = mMap.addMarker(MarkerOptions().position(Christchurch).title("Marker in Christchurch"))
 
         // List Example
         listOfBikeStations = listOf(
