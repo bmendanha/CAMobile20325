@@ -4,39 +4,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#283c8f"
+    android:background="#6FE4DA"
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="402dp"
+        android:layout_height="320dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="100dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="100dp"
-        android:src="@drawable/dublinhapenny"
+        android:src="@drawable/bike"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.496" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="389dp"
         android:layout_height="31dp"
-        android:layout_marginTop="672dp"
         android:text="@string/bruno_mendanha_all_rights_reserved"
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.272"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.543" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="379dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="47dp"
+        android:text="Running your world"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.343"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
